@@ -79,6 +79,10 @@ body {
   background-size: cover;
   min-height: 475px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero::after {
@@ -87,4 +91,24 @@ body {
   height: 100%;
   position: absolute;
   background-color: rgba(47, 47, 47, 0.7);
+  z-index: 0;
+}
+
+#hero > * {
+  z-index: 2;
+  color: var(--bs-white);
+}
+
+#hero h1 {
+  font-size: 47px;
+  line-height: 57px;
+}
+
+#hero p {
+  max-width: 800px;
+  margin: 35px auto;
+}
+#hero .btn {
+  width: 100%;
+  max-width: 350px;
 }
