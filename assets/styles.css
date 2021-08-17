@@ -72,6 +72,10 @@ body {
   border-color: var(--bs-secondary);
 }
 
+.btn-secondary a {
+  color: var(--bs-white);
+}
+
 #hero {
   background-image: url("images/heroBg.jpg");
   background-position: center center;
@@ -108,7 +112,18 @@ body {
   max-width: 800px;
   margin: 35px auto;
 }
+
 #hero .btn {
   width: 100%;
   max-width: 350px;
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vw * 0.562);
+}
+
+footer {
+  background-color: var(--bs-primary);
+  padding: 1rem;
 }
