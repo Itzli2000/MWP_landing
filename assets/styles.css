@@ -147,10 +147,10 @@ section {
   color: var(--bs-white);
 }
 
-#hero h1 {
+/* #hero h1 {
   font-size: 47px;
   line-height: 57px;
-}
+} */
 
 #hero p {
   max-width: 800px;
