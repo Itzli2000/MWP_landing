@@ -72,6 +72,19 @@ body {
   font-weight: 500;
 }
 
+.dropdown-menu {
+  background-color: rgba(var(--bs-secondary-rgb), 0.9);
+}
+
+.dropdown-menu a {
+  color: var(--bs-white);
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: rgba(var(--bs-white-rgb), 0.3);
+  color: var(--bs-primary);
+}
+
 .btn-secondary {
   background-color: var(--bs-secondary);
   border-color: var(--bs-secondary);
@@ -147,11 +160,6 @@ section {
   color: var(--bs-white);
 }
 
-/* #hero h1 {
-  font-size: 47px;
-  line-height: 57px;
-} */
-
 #hero p {
   max-width: 800px;
   margin: 80px auto;
@@ -163,8 +171,7 @@ section {
 }
 
 #services {
-  margin-top: 90px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 #services h2 {
@@ -204,6 +211,10 @@ iframe {
   margin: 100px 0;
   width: 100%;
   height: calc(100vw * 0.562);
+}
+
+#join {
+  margin-bottom: 70px;
 }
 
 footer {
