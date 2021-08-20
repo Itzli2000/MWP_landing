@@ -80,7 +80,8 @@ body {
   color: var(--bs-white);
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus,
+.dropdown-item:hover {
   background-color: rgba(var(--bs-white-rgb), 0.3);
   color: var(--bs-primary);
 }
@@ -113,9 +114,16 @@ body {
 
 .btn-secondary:focus,
 .btn-secondary:hover {
+  background-color: var(--bs-white) !important;
+  border-color: var(--bs-secondary) !important;
+  color: var(--bs-secondary) !important;
+}
+
+.btn-outline-light:focus,
+.btn-outline-light:hover {
+  color: var(--bs-secondary) !important;
   background-color: var(--bs-white);
-  border-color: var(--bs-secondary);
-  color: var(--bs-secondary);
+  font-weight: normal !important;
 }
 
 h2 {
@@ -136,7 +144,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -179,7 +187,7 @@ section {
 }
 
 #banner {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   padding: 1rem 0;
   background-color: var(--bs-primary);
   border-color: var(--bs-primary);
@@ -187,7 +195,7 @@ section {
   text-align: center;
 }
 
-#banner  p {
+#banner p {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
@@ -223,6 +231,9 @@ footer {
 }
 
 @media (min-width: 992px) {
+  .navbar {
+    padding: 0.8rem 0;
+  }
   .navbar-expand-lg .navbar-nav .nav-item {
     padding-left: 1rem;
   }
@@ -231,5 +242,16 @@ footer {
 @media (max-width: 768px) {
   .navbar-expand-lg .navbar-nav .nav-item {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #hero p {
+    max-width: 800px;
+    margin: 40px auto;
+  }
+
+  section {
+    padding-top: 30px;
   }
 }
