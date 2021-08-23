@@ -144,7 +144,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15vh 0;
+  padding: 20vh 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -254,6 +254,10 @@ footer {
 }
 
 @media (max-width: 767px) {
+  #hero {
+    padding: 13vh 0;
+  }
+
   #hero p {
     max-width: 800px;
     margin: 40px auto;

@@ -30,6 +30,59 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
   <meta name="theme-color" content="#ffffff" />
   <!-- Favicons -->
+  <!-- ==============================================
+		Google Analytics
+		=============================================== -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171708253-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171708253-1');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '664718997555765');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=664718997555765&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- LinkedIn Pixel Code -->
+  <script type="text/javascript">
+    _linkedin_partner_id = "2818356";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script>
+  <script type="text/javascript">
+    (function () {
+      var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript"; b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);
+    })();
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://px.ads.linkedin.com/collect/?pid=2818356&fmt=gif" />
+  </noscript>
+  <!-- End LinkedIn Pixel Code -->
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -73,7 +126,8 @@
             <a class="nav-link" href="#howWorks">¿Cómo funciona?</a>
           </li>
           <li class="nav-item me-2">
-            <a class="nav-link btn btn-outline-light" href="https://app.mindswithpurpose.com/?userType=Client" target="_blank">INICIAR
+            <a class="nav-link btn btn-outline-light" href="https://app.mindswithpurpose.com/?userType=Client"
+              target="_blank">INICIAR
               SESIÓN</a>
           </li>
           <li class="nav-item">
@@ -91,7 +145,8 @@
       expertos de diferentes áreas y recibir asesoramiento personalizado desde
       cualquier lugar, y cuando tu quieras.
     </p>
-    <a class="btn btn-secondary" href="https://app.mindswithpurpose.com/?userType=Client" target="_blank">¡Comienza hoy!</a>
+    <a class="btn btn-secondary" href="https://app.mindswithpurpose.com/?userType=Client" target="_blank">¡Comienza
+      hoy!</a>
   </section>
   <div class="container">
     <section id="about">
@@ -133,7 +188,8 @@
     <section id="howWorks">
       <h2>Cómo funciona</h2>
       <img src="assets/images/worksDesktop.png" class="img-fluid" alt="Como funciona">
-      <a class="d-block btn btn-secondary" href="https://app.mindswithpurpose.com/?userType=Client" target="_blank">¡Encuentra tu
+      <a class="d-block btn btn-secondary" href="https://app.mindswithpurpose.com/?userType=Client"
+        target="_blank">¡Encuentra tu
         experto!</a>
     </section>
   </div>
@@ -149,7 +205,8 @@
         <div class="card">
           <div class="card-body">
             <p>¿Quieres formar parte de la comunidad de expertos de Minds with purpose?</p>
-            <a class="d-block btn btn-secondary" href="https://app.mindswithpurpose.com/?userType=Expert" target="_blank">¡Se un
+            <a class="d-block btn btn-secondary" href="https://app.mindswithpurpose.com/?userType=Expert"
+              target="_blank">¡Se un
               experto!</a>
           </div>
         </div>
