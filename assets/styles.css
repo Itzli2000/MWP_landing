@@ -252,6 +252,10 @@ footer {
   padding: 1rem;
 }
 
+.social-icon {
+  margin: 0 0.5rem;
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 0.8rem 0;
@@ -288,5 +292,9 @@ footer {
 
   section {
     padding-top: 30px;
+  }
+
+  .social-icon {
+    margin: 0 1rem;
   }
 }
