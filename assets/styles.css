@@ -194,6 +194,20 @@ section {
   margin-bottom: 100px;
 }
 
+.vime-video {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.vime-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+
 #banner {
   font-family: "Comfortaa", cursive;
   padding: 1rem 0;
@@ -261,6 +275,15 @@ footer {
   #hero p {
     max-width: 800px;
     margin: 40px auto;
+  }
+
+  #howWorks h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  #howWorks img {
+    width: 95%;
+    margin-bottom: 1.5rem;
   }
 
   section {
