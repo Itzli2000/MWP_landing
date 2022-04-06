@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minds With Purpose</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
     <!-- Favicons -->
@@ -372,25 +372,642 @@
       class="img-fluid"
       alt="Mobile demo"
     />
+    <div class="container-xl my-5">
+      <h2>FAQ</h2>
+      <h3>Encuentra respuestas a las Preguntas Frecuentes.</h3>
+      <hr />
+      <h4>Básicos</h4>
+      <div class="accordion" id="accordionBasic">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              ¿Como me registro?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionBasic"
+          >
+            <div class="accordion-body">
+              Por medio de nuestra plataforma, autenticándote con Facebook o
+              LinkedIn.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              ¿Como encuentro un Experto?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionBasic"
+          >
+            <div class="accordion-body">
+              Una vez que hayas ingresado en la plataforma, podrás hacer la
+              búsqueda de tu Experto por medio de la selección de sus
+              habilidades, competencias, experiencia e industria a la que
+              pertenezca.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              ¿Puedo cancelar un servicio?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionBasic"
+          >
+            <div class="accordion-body">
+              Los servicios se pueden cancelar antes de que el experto acepte tu
+              requerimiento. Si el experto ya aceptó tu requerimiento y no es
+              posible para ti llevar a cabo la sesión puedes reagendar en otro
+              horario, o en algunos casos seleccionar otro experto, desde el
+              panel de control.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              ¿Como pago por un servicio?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionBasic"
+          >
+            <div class="accordion-body">
+              Los pagos se hacen vía una pasarela de pago (plataforma) externa
+              llamada Stripe utilizando tu tarjeta de crédito.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              ¿Puedo evaluar un servicio?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionBasic"
+          >
+            <div class="accordion-body">
+              Al finalizar la sesión podrás evaluar la sesión con tu experto. El
+              experto también tiene la oportunidad de evaluar como ha sido la
+              sesión con un cliente.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="mt-4">Cuentas</h4>
+      <div class="accordion" id="accordionAccount">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOneAccount">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOneAccount"
+              aria-expanded="true"
+              aria-controls="collapseOneAccount"
+            >
+              ¿Como cambio mi password?
+            </button>
+          </h2>
+          <div
+            id="collapseOneAccount"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOneAccount"
+            data-bs-parent="#accordionAccount"
+          >
+            <div class="accordion-body">
+              No es necesario cambiar tu password ya que tu cuenta esta ligada a
+              la aplicación con la que decidiste inscribirte, Linkedin o
+              Facebook.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwoAccount">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwoAccount"
+              aria-expanded="false"
+              aria-controls="collapseTwoAccount"
+            >
+              ¿Como doy de baja mi cuenta?
+            </button>
+          </h2>
+          <div
+            id="collapseTwoAccount"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwoAccount"
+            data-bs-parent="#accordionAccount"
+          >
+            <div class="accordion-body">
+              Solo debes ir al Menú ajustes -> Eliminar Cuenta y confirmar que
+              deseas eliminar tu cuenta.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThreeAccount">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThreeAccount"
+              aria-expanded="false"
+              aria-controls="collapseThreeAccount"
+            >
+              ¿Como modifico mi perfil de usuario?
+            </button>
+          </h2>
+          <div
+            id="collapseThreeAccount"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThreeAccount"
+            data-bs-parent="#accordionAccount"
+          >
+            <div class="accordion-body">
+              Puedes editar cualquier apartado de tu perfil desde el menú
+              "perfil" y dando click en el botón de "edición".
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourAccount">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourAccount"
+              aria-expanded="false"
+              aria-controls="collapseFourAccount"
+            >
+              ¿Como cambio de perfil de ususario?
+            </button>
+          </h2>
+          <div
+            id="collapseFourAccount"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFourAccount"
+            data-bs-parent="#accordionAccount"
+          >
+            <div class="accordion-body">
+              Para cambiar entre tu perfil de cliente y experto, solo debes
+              cerrar tu sesión en el menú Ajuste -> Cerrar sesión y dar click en
+              el botón del tipo de usuario en el que deseas ingresar, Cliente o
+              Experto.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="mt-4">Proyectos</h4>
+      <div class="accordion" id="accordionProjects">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOneProjects">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOneProjects"
+              aria-expanded="true"
+              aria-controls="collapseOneProjects"
+            >
+              ¿Como solicito un servicio?
+            </button>
+          </h2>
+          <div
+            id="collapseOneProjects"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOneProjects"
+            data-bs-parent="#accordionProjects"
+          >
+            <div class="accordion-body">
+              Una vez que te hayas registrado como cliente, con un perfil
+              básico, tendrás oportunidad de seleccionar uno de los tres
+              servicios disponibles (express advice, mentoring, coaching).
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwoProjects">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwoProjects"
+              aria-expanded="false"
+              aria-controls="collapseTwoProjects"
+            >
+              ¿Como selecciono al experto?
+            </button>
+          </h2>
+          <div
+            id="collapseTwoProjects"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwoProjects"
+            data-bs-parent="#accordionProjects"
+          >
+            <div class="accordion-body">
+              Mediante una búsqueda seleccionando el perfil de experto requerido
+              basado en: industria, función, competencias, experiencia.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThreeProjects">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThreeProjects"
+              aria-expanded="false"
+              aria-controls="collapseThreeProjects"
+            >
+              ¿Como me comunico con el experto?
+            </button>
+          </h2>
+          <div
+            id="collapseThreeProjects"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThreeProjects"
+            data-bs-parent="#accordionProjects"
+          >
+            <div class="accordion-body">
+              Tu única forma de comunicación es vía la plataforma, una vez que
+              el experto acepta tu requerimiento, se agendará una cita para
+              tener una sesión a través del sistema de videoconferencia de Minds
+              With Purpose.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourProjects">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourProjects"
+              aria-expanded="false"
+              aria-controls="collapseFourProjects"
+            >
+              ¿Se requiere de un contrato?
+            </button>
+          </h2>
+          <div
+            id="collapseFourProjects"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFourProjects"
+            data-bs-parent="#accordionProjects"
+          >
+            <div class="accordion-body">
+              Sí. El contrato se da al aceptar los terminos y condiciones.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFiveProjects">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFiveProjects"
+              aria-expanded="false"
+              aria-controls="collapseFiveProjects"
+            >
+              ¿Como debo plantear mis necesidades?
+            </button>
+          </h2>
+          <div
+            id="collapseFiveProjects"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFiveProjects"
+            data-bs-parent="#accordionProjects"
+          >
+            <div class="accordion-body">
+              Procura ser lo más explícito en la información solicitada para que
+              el experto pueda identificar tu necesidad y evaluar si él/ ella
+              puede ser un buen recurso para ti.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="mt-4">Pagos</h4>
+      <div class="accordion" id="accordionPayments">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOnePayments">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOnePayments"
+              aria-expanded="true"
+              aria-controls="collapseOnePayments"
+            >
+              ¿Cuales son las opciones de pago?
+            </button>
+          </h2>
+          <div
+            id="collapseOnePayments"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOnePayments"
+            data-bs-parent="#accordionPayments"
+          >
+            <div class="accordion-body">
+              Con tarjetas bancarias de crédito o débito vía Stripe
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwoPayments">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwoPayments"
+              aria-expanded="false"
+              aria-controls="collapseTwoPayments"
+            >
+              ¿Como y cuando se cobran los servicios?
+            </button>
+          </h2>
+          <div
+            id="collapseTwoPayments"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwoPayments"
+            data-bs-parent="#accordionPayments"
+          >
+            <div class="accordion-body">
+              Se hace un precargo del servicio en tu tarjeta al solicitar el
+              servicio por medio de la plataforma Stripe y se cobra
+              completamente cuando el experto acepta tu requerimiento
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThreePayments">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThreePayments"
+              aria-expanded="false"
+              aria-controls="collapseThreePayments"
+            >
+              ¿Cómo recibo mi factura?
+            </button>
+          </h2>
+          <div
+            id="collapseThreePayments"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThreePayments"
+            data-bs-parent="#accordionPayments"
+          >
+            <div class="accordion-body">
+              La factura te llegará vía correo electrónico o estará disponible
+              en tu panel de control.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourPayments">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourPayments"
+              aria-expanded="false"
+              aria-controls="collapseFourPayments"
+            >
+              ¿Admiten cualquier tarjeta de crédito?
+            </button>
+          </h2>
+          <div
+            id="collapseFourPayments"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFourPayments"
+            data-bs-parent="#accordionPayments"
+          >
+            <div class="accordion-body">
+              Si. La pasarela (plataforma) de pago (Stripe) acepta cualquier
+              tarjeta de créditoo débito.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="mt-4">Expertos</h4>
+      <div class="accordion" id="accordionExperts">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOneExperts">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOneExperts"
+              aria-expanded="true"
+              aria-controls="collapseOneExperts"
+            >
+              ¿Como obtengo mi primer proyecto?
+            </button>
+          </h2>
+          <div
+            id="collapseOneExperts"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOneExperts"
+            data-bs-parent="#accordionExperts"
+          >
+            <div class="accordion-body">
+              A partir de que hayas completado tu perfil y tu disponibilidad,
+              puedes empezar a recibir solicitudes de servicio con base en las
+              necesidades de los clientes.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwoExperts">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwoExperts"
+              aria-expanded="false"
+              aria-controls="collapseTwoExperts"
+            >
+              ¿Por donde debo empezar?
+            </button>
+          </h2>
+          <div
+            id="collapseTwoExperts"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwoExperts"
+            data-bs-parent="#accordionExperts"
+          >
+            <div class="accordion-body">
+              Revisa los contenidos que hemos desarrollado para ti, en
+              preparación a tu(s) primera(s) sesión(es)
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThreeExperts">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThreeExperts"
+              aria-expanded="false"
+              aria-controls="collapseThreeExperts"
+            >
+              ¿Como recibo el dinero por mis servicios?
+            </button>
+          </h2>
+          <div
+            id="collapseThreeExperts"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThreeExperts"
+            data-bs-parent="#accordionExperts"
+          >
+            <div class="accordion-body">
+              Para recibir el dinero de tus servicios usamos la plataforma
+              Stripe. Si esta no está funcionando en tu país, te haremos una
+              transferencia electrónica.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourExperts">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourExperts"
+              aria-expanded="false"
+              aria-controls="collapseFourExperts"
+            >
+              ¿Cómo me pongo en contacto con MWP para dudas, comentarios y
+              sugerencias?
+            </button>
+          </h2>
+          <div
+            id="collapseFourExperts"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFourExperts"
+            data-bs-parent="#accordionExperts"
+          >
+            <div class="accordion-body">
+              Puedes mandarnos tus preguntas, sugerencias y comentarios a la
+              siguiente dirección de correo electrónico:
+              <a
+                href="mailto:customerservice@mindswithpurpose.com"
+                target="_blank"
+                >customerservice@mindswithpurpose.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="row justify-content-around">
         <div class="col-12 col-md-6 my-3">
           <a
-            class="social-icon" target="_blank"
+            class="social-icon"
+            target="_blank"
             href="https://www.linkedin.com/company/minds-with-purpose/"
             ><img src="assets/images/linkedin.png" alt="Linkedin"
           /></a>
           <a
-            class="social-icon" target="_blank"
+            class="social-icon"
+            target="_blank"
             href="https://www.instagram.com/mindswithpurposeltd/"
             ><img src="assets/images/instagram.png" alt="Instagram"
           /></a>
           <a
-            class="social-icon" target="_blank"
+            class="social-icon"
+            target="_blank"
             href="https://www.youtube.com/channel/UC3COjVdv4qzXyAfPgyn41VA"
             ><img src="assets/images/youtube.png" alt="Youtube"
           /></a>
-          <a class="social-icon" target="_blank" href="https://www.facebook.com/mindswithpurpose/"
+          <a
+            class="social-icon"
+            target="_blank"
+            href="https://www.facebook.com/mindswithpurpose/"
             ><img src="assets/images/facebook.png" alt="Facebook"
           /></a>
         </div>
