@@ -285,6 +285,15 @@ table {
   min-width: 800px;
 }
 
+.footer-link {
+  color: var(--bs-white);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--bs-secondary);
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 0.8rem 0;
