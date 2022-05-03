@@ -107,6 +107,12 @@ button:focus:not(:focus-visible) {
   color: var(--bs-primary);
 }
 
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bs-secondary);
+}
+
 .navbar-dark .navbar-nav .btn-secondary.nav-link:focus,
 .navbar-dark .navbar-nav .btn-secondary.nav-link:hover {
   background-color: var(--bs-white);
@@ -266,6 +272,17 @@ footer {
 .accordion-button:not(.collapsed) {
   color: var(--bs-primary);
   background-color: #e4eff4;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto 5rem;
+  overflow: scroll;
+}
+
+table {
+  min-width: 800px;
 }
 
 @media (min-width: 992px) {
