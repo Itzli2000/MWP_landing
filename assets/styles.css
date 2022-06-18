@@ -165,6 +165,10 @@ section {
   align-items: center;
 }
 
+#hero.welcome-hero {
+  min-height: calc(100vh - 90px);
+}
+
 #hero::after {
   content: "";
   width: 100%;
