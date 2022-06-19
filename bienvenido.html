@@ -240,7 +240,7 @@
 
     try {
       closeBtn.addEventListener("click", () => {
-        window.close();
+        history.back();
       });
     } catch (error) {
       console.log(error);
