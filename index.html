@@ -191,9 +191,6 @@
   <body class="text-center">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#hero">
-        <img src="assets/images/logo_horizontal.svg" alt="" width="30" height="24">
-      </a> -->
         <button
           class="navbar-toggler ms-auto"
           type="button"
@@ -236,6 +233,7 @@
             </li>
             <li class="nav-item me-2">
               <a
+                id="loginBtn"
                 class="nav-link btn btn-outline-light"
                 href="https://app.mindswithpurpose.com/?userType=Client"
                 target="_blank"
@@ -244,6 +242,7 @@
             </li>
             <li class="nav-item">
               <a
+                id="registerBtn"
                 class="nav-link btn btn-secondary"
                 href="https://app.mindswithpurpose.com/?userType=Client"
                 target="_blank"
@@ -262,6 +261,7 @@
         cualquier lugar, y cuando tu quieras.
       </p>
       <a
+        id="startTodayBtn"
         class="btn btn-secondary"
         href="https://app.mindswithpurpose.com/?userType=Client"
         target="_blank"
@@ -1063,4 +1063,9 @@
   </body>
 
   <script type="text/javascript" src="assets/js/main.js"></script>
+  <script>
+    (function () {
+      gtag("event", "Landing page loaded");
+    })();
+  </script>
 </html>
